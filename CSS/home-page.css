@@ -1,0 +1,192 @@
+body {
+    margin: 0;
+}
+
+.header {
+    clear: both;
+    background: url(../picture/beijing.jpg);
+    background-repeat: round;
+    width: 100%;
+    height: 62px;
+}
+
+.picture img {
+    margin-top: 7px;
+    margin-left:  15.69%;;
+    width: 161px;
+    height: 50px;
+    opacity: 1;
+    clear: both;
+}
+
+.home{
+    float: right;
+}
+
+.home li {
+    margin-right: 57px;
+    display: inline-block;
+    list-style-type: none;
+    margin-top: 6px;
+}
+
+.home li a {
+    color: #C0BEBE;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.biaoji {
+    float: right;
+    height: 4px;
+    margin-top: 58px;
+    background: #E2DDDD;
+}
+.button-information {
+    top: 62px;
+    left: 0px;
+    width: 100%;
+}
+
+.blog-info {
+    margin-top: 33px;
+    width: 60%;
+    padding-left: 15%;
+    float: left;
+}
+
+.blog-info li {
+    list-style-type: none;
+    margin-top: 37px;
+}
+.blog-info li p {
+    float: right;
+    font-size: 12px;
+}
+
+.blog-name {
+    width: 369px;
+    height: 22px;
+    font-size: 21px;
+    color: #262626;
+    text-decoration: none;
+}
+
+.trade-trends {
+    width: 56px;
+    height: 13px;
+    font-size: 13px;
+    color: #373636;
+}
+
+.study-land {
+    width: 56px;
+    height: 13px;
+    font-size: 13px;
+    color: #373636;
+}
+
+.summery {
+    line-height: 25px;
+    letter-spacing: 1.5px;
+    font-size: 14px;
+    margin-top: 29px;
+}
+
+.all-info {
+    font-size: 15px;
+    margin-left: 91%;
+}
+
+hr {
+    color: #D8D1D1;
+    width: 100%;
+    margin-top: 17px;
+}
+
+.ad-button {
+    padding-left: 18%;
+    float: left;
+    width: 57%;
+    clear: both;
+}
+
+.ad-button li {
+    line-height: 30px;
+    color: #666666;
+    list-style: none;
+    font-size: 16px;
+    background: #FFFFFF;
+    border: 1px solid #DDDDDD;
+    display: inline-block;
+    margin-right: 4px;
+    margin-top: 55px;
+}
+
+.ad-button li span {
+    margin: 3px 13px 3px 13px;
+}
+
+.ad-button li img {
+    margin: 0px 20px 0px 20px;
+}
+
+input {
+    height: 22px;
+    width: 32px;
+    margin-left: 4px;
+}
+
+.top {
+    float: right;
+    margin-top: 55px;
+}
+.more-info {
+    overflow: hidden;
+    margin-top: 32px;
+    margin-left: 77%;
+}
+
+.more-info p {
+    margin-top: 49px;
+    font-size: 18px;
+    color: #131313;
+    width: 68.5%;
+    background: linear-gradient(to bottom, #EEEEEE, #D8D8D8);
+    padding: 11px 9px 5px ;
+}
+
+.more-info li  {
+    font-size: 15px;
+    color: #353535;
+    margin-top: 13px;
+    list-style-type: none;
+}
+
+.more-info li a {
+    font-size: 15px;
+    color: #353535;
+    text-decoration: none;
+}
+
+.footer{
+    height: 80px;
+    margin-top: 564px;
+    background: #3D3C3C;
+}
+
+.white {
+    height: 31px;
+    background: #FFFFFF;
+}
+
+.block {
+    height: 4px;
+    width: 50px;
+    margin-left: 340px;
+    background: #E2DDDD;
+    position: absolute;
+    top: 52px;
+    overflow: hidden;
+    transition: 0.5s all;
+}
