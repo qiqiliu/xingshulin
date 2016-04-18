@@ -4,9 +4,20 @@
     <meta charset="UTF-8">
     <title>杏树林blog主页</title>
     <link rel="stylesheet" type="text/css" href="../CSS/home-page.css">
-    <script type="text/javascript" src="../JS/choose_people.js"></script>
+    <script type="text/javascript" src="../JS/home-page.js"></script>
     <script type="text/javascript" src="../Public/jquery-2.2.2.min.js"></script>
     <script type="text/javascript" src="../Public/underscore.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $(".block").hide();
+            $(".aaaa").mouseover(function(){
+                $(".block").show();
+            });
+            $(".aaaa").mouseout(function(){
+                $(".block").hide();
+            });
+        });
+    </script>
 </head>
 <body>
 
@@ -15,7 +26,7 @@
         <a class="picture" href="https://www.xingshulin.com/index.html"><img src="../picture/logo.png"></a>
 
         <div class="home">
-            <ul>
+            <ul class="aaaa">
                 <li><a type="button" href="https://www.xingshulin.com/index.html">首页</a></li>
                 <li><a type="button" href="https://www.xingshulin.com/index.html">产品</a></li>
                 <li><a type="button" href="https://www.xingshulin.com/casefolder_professional/index.html">
@@ -24,8 +35,6 @@
                 <li><a type="button" href="http://www.xingshulin.com/support.html">技术支持</a></li>
                 <li class="block" style="margin-left: 0px; width: 490px; display: block;"></li>
             </ul>
-        </div>
-        <div class="biaoji">
         </div>
     </div>
 </header>
@@ -64,6 +73,7 @@
     </ul>
 </div>
 <div class="ad-button">
+    <ul>
         <li><img src="../picture/箭头左.png"></li>
         <li style="margin-left: 17px"><span> 1 </span></li>
         <li><span> 2 </span></li>
