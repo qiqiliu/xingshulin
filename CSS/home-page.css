@@ -13,8 +13,6 @@ body {
 .picture img {
     margin-top: 7px;
     margin-left:  15.69%;;
-    width: 161px;
-    height: 50px;
     opacity: 1;
     clear: both;
 }
@@ -36,15 +34,30 @@ body {
     text-decoration: none;
 }
 
-.biaoji {
-    float: right;
-    height: 4px;
-    margin-top: 58px;
-    background: #E2DDDD;
+.sub {
+    display: block;
+    position: absolute;
+    top: 62px;
+    margin-left: -34px;
+    background: #EEEEEE;
+    z-index: 1;
+    width: 5%;
+    height: 90px;
+    border-top: 0;
+    background-repeat: repeat-x;
+    text-align: center;
 }
+
+.sub li  {
+    width: 100%;
+    margin-left: -20px;
+}
+.sub li :hover {
+    color: coral;
+}
+
 .button-information {
     top: 62px;
-    left: 0px;
     width: 100%;
 }
 
@@ -59,9 +72,14 @@ body {
     list-style-type: none;
     margin-top: 37px;
 }
+
 .blog-info li p {
     float: right;
     font-size: 12px;
+}
+
+.blog-info li img {
+    width:100%;
 }
 
 .blog-name {
@@ -145,6 +163,7 @@ input {
     overflow: hidden;
     margin-top: 32px;
     margin-left: 77%;
+    width: 18%;
 }
 
 .more-info p {
@@ -156,6 +175,9 @@ input {
     padding: 11px 9px 5px ;
 }
 
+.more-info img {
+    width: 100%;
+}
 .more-info li  {
     font-size: 15px;
     color: #353535;
@@ -182,8 +204,6 @@ input {
 
 .block {
     height: 4px;
-    width: 50px;
-    margin-left: 340px;
     background: #E2DDDD;
     position: absolute;
     top: 52px;
