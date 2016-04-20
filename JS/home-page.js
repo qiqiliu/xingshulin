@@ -8,7 +8,7 @@ function get_active() {
     $(".block").hide();
     $(".home-page").mouseover(function () {
         $(".block").css("width", $(".home-page").width() + 18);
-        $(".block").css("margin-left", $(".home-page").offset().left - 753);
+        $(".block").css("left", $(".home-page").offset().left-9);
         $(".block").show();
     });
     $(".home-page").mouseout(function () {
@@ -16,7 +16,7 @@ function get_active() {
     });
     $(".case").mouseover(function () {
         $(".block").css("width", $(".case").width() + 18);
-        $(".block").css("margin-left", $(".case").offset().left - 753);
+        $(".block").css("left", $(".case").offset().left-9);
         $(".block").show();
     });
     $(".case").mouseout(function () {
@@ -24,7 +24,7 @@ function get_active() {
     });
     $(".bolg").mouseover(function () {
         $(".block").css("width", $(".bolg").width() + 18);
-        $(".block").css("margin-left", $(".bolg").offset().left - 753);
+        $(".block").css("left", $(".bolg").offset().left-9);
         $(".block").show();
     });
     $(".bolg").mouseout(function () {
@@ -32,7 +32,7 @@ function get_active() {
     });
     $(".Technical").mouseover(function () {
         $(".block").css("width", $(".Technical").width() + 18);
-        $(".block").css("margin-left", $(".Technical").offset().left - 753);
+        $(".block").css("left", $(".Technical").offset().left-9);
         $(".block").show();
     });
     $(".Technical").mouseout(function () {

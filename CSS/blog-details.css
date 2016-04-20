@@ -133,11 +133,8 @@ body {
 .all-info:hover{
     color: coral;
 }
-
-hr {
-    color: #D8D1D1;
+.details {
     width: 100%;
-    margin-top: 17px;
 }
 
 .ad-button {
@@ -148,23 +145,9 @@ hr {
 }
 
 .ad-button li {
-    line-height: 30px;
-    color: #666666;
     list-style: none;
-    font-size: 16px;
-    background: #FFFFFF;
-    border: 1px solid #DDDDDD;
     display: inline-block;
-    margin-right: 4px;
-    margin-top: 55px;
-}
-
-.ad-button li span {
-    margin: 3px 13px 3px 13px;
-}
-
-.ad-button li img {
-    margin: 0px 20px 0px 20px;
+    margin-top: 30px;
 }
 
 input {
