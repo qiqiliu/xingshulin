@@ -12,6 +12,7 @@ body {
 .picture {
     margin-left: 12%;
 }
+
 .picture img {
     margin-top: 7px;
     opacity: 1;
@@ -31,6 +32,7 @@ body {
 }
 
 .home li a {
+    height: 50px;
     color: #C0BEBE;
     font-size: 16px;
     text-decoration: none;
@@ -59,10 +61,11 @@ body {
     text-align: center;
 }
 
-.sub li  {
+.sub li {
     width: 100%;
     margin-left: -32px;
 }
+
 .sub li :hover {
     color: coral;
 }
@@ -77,6 +80,9 @@ body {
     width: 60%;
     padding-left: 15%;
     float: left;
+}
+.blog-info p {
+    color: #777;
 }
 
 .blog-info li {
@@ -102,11 +108,19 @@ body {
     text-decoration: none;
 }
 
+.blog-name:hover {
+    color: coral;
+}
+
 .trade-trends {
     width: 56px;
     height: 13px;
     font-size: 13px;
     color: #373636;
+}
+
+.trade-trends:hover {
+    color: coral;
 }
 
 .study-land {
@@ -116,6 +130,9 @@ body {
     color: #373636;
 }
 
+.study-land:hover {
+    color: coral;
+}
 .summery {
     line-height: 25px;
     letter-spacing: 1.5px;
@@ -144,6 +161,7 @@ hr {
     padding-left: 15%;
     float: left;
     width: 60%;
+    margin-top: 55px;
     clear: both;
 }
 
@@ -156,7 +174,6 @@ hr {
     border: 1px solid #DDDDDD;
     display: inline-block;
     margin-right: 4px;
-    margin-top: 55px;
 }
 
 .ad-button li span {
@@ -175,7 +192,6 @@ input {
 
 .top {
     float: right;
-    margin-top: 55px;
 }
 .more-info {
     overflow: hidden;
@@ -197,6 +213,7 @@ input {
 .more-info img {
     width: 100%;
 }
+
 .more-info li  {
     font-size: 15px;
     color: #353535;
@@ -210,6 +227,10 @@ input {
     text-decoration: none;
 }
 
+.more-info li a:hover {
+    color: coral;
+}
+
 .footer{
     float: left;
     margin-top: 100px;
@@ -218,4 +239,88 @@ input {
     background: #3D3C3C;
     clear: both;
 }
+
+
+
+
+
+
+
+
+
+
+
+#menu {
+    text-align: center;
+    float: right;
+    margin: 0 0 0 0;
+    overflow: hidden;
+}
+ul {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+#menu li {
+    float: left;
+    width: auto;
+    overflow: hidden;
+    color: #bbbaba;
+}
+#menu li a {
+    width: 90px;
+    height: 38px;
+    padding: 24px 0 0 0;
+    line-height: 16px;
+    display: block;
+    font-weight: 500;
+    font-size: 16px;
+    font-family: "STHeitiSC-Medium";
+    color: #C0BEBE;
+    text-decoration: none;
+}
+#menu .sub {
+    display: block;
+    position: absolute;
+    top: 62px;
+    margin-left: -4px;
+    background: #EEEEEE;
+    z-index: 1;
+    width: 97px;
+    height: 108px;
+    border-top: 0;
+    background-repeat: repeat-x;
+    text-align: center;
+}
+#menu .sub li {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+#menu .sub li a {
+    height: 36px;
+    width: 97px;
+    color: #3E3E3E;
+    padding-top: 10px;
+    font-family: STHeitiSC-Light;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

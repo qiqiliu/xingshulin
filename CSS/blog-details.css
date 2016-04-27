@@ -3,7 +3,7 @@ body {
 }
 .header {
     clear: both;
-    background: url(../picture/hom-page-picture/beijing.jpg);
+    background: url(../picture/blog-details/beijing.jpg);
     background-repeat: round;
     width: 100%;
     height: 62px;
@@ -109,11 +109,19 @@ body {
     color: #373636;
 }
 
+.trade-trends:hover {
+    color: coral;
+}
+
 .study-land {
     width: 56px;
     height: 13px;
     font-size: 13px;
     color: #373636;
+}
+
+.study-land:hover {
+    color: coral;
 }
 
 .summery {
@@ -123,18 +131,26 @@ body {
     margin-top: 29px;
 }
 
-.all-info {
-    font-size: 15px;
-    float: right;
-    margin-right: 5px;
-    color: #000000;
-}
-
-.all-info:hover{
-    color: coral;
-}
 .details {
     width: 100%;
+}
+
+.navigation {
+    margin-top: 32px;
+    width: 50%;
+    padding-left: 18%;
+    float: left;
+}
+
+.navigation a {
+    color: #7E7D7D;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.navigation a :hover {
+    color: coral;
+    text-decoration:underline;
 }
 
 .ad-button {
@@ -150,47 +166,16 @@ body {
     margin-top: 30px;
 }
 
-input {
-    height: 22px;
-    width: 32px;
-    margin-left: 4px;
-}
-
-.top {
-    float: right;
-    margin-top: 55px;
-}
 .more-info {
     overflow: hidden;
-    margin-top: 32px;
+    margin-top: 90px;
     margin-left: 77%;
     width: 18%;
     height: 100%;
 }
 
-.more-info p {
-    margin-top: 49px;
-    font-size: 18px;
-    color: #131313;
-    width: 68.5%;
-    background: linear-gradient(to bottom, #EEEEEE, #D8D8D8);
-    padding: 11px 9px 5px ;
-}
-
 .more-info img {
     width: 100%;
-}
-.more-info li  {
-    font-size: 15px;
-    color: #353535;
-    margin-top: 13px;
-    list-style-type: none;
-}
-
-.more-info li a {
-    font-size: 15px;
-    color: #353535;
-    text-decoration: none;
 }
 
 .footer{

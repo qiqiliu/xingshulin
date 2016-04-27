@@ -1,4 +1,7 @@
 /**
+ * Created by grass on 16-4-21.
+ */
+/**
  * Created by grass on 16-4-18.
  */
 $(document).ready(function () {
@@ -9,7 +12,7 @@ function get_active() {
     $(".home-page").mouseover(function () {
         $(".block").css("width", $(".home-page").width() + 18);
         $(".block").css("left", $(".home-page").offset().left-9);
-        $(".block").slideDown();
+        $(".block").show();
     });
     $(".home-page").mouseout(function () {
         $(".block").hide();
@@ -17,7 +20,7 @@ function get_active() {
     $(".case").mouseover(function () {
         $(".block").css("width", $(".case").width() + 18);
         $(".block").css("left", $(".case").offset().left-9);
-        $(".block").slideDown();
+        $(".block").show();
     });
     $(".case").mouseout(function () {
         $(".block").hide();
@@ -25,7 +28,7 @@ function get_active() {
     $(".bolg").mouseover(function () {
         $(".block").css("width", $(".bolg").width() + 18);
         $(".block").css("left", $(".bolg").offset().left-9);
-        $(".block").slideDown();
+        $(".block").show();
     });
     $(".bolg").mouseout(function () {
         $(".block").hide();
@@ -33,7 +36,7 @@ function get_active() {
     $(".Technical").mouseover(function () {
         $(".block").css("width", $(".Technical").width() + 18);
         $(".block").css("left", $(".Technical").offset().left-9);
-        $(".block").slideDown();
+        $(".block").show();
     });
     $(".Technical").mouseout(function () {
         $(".block").hide();
@@ -41,16 +44,9 @@ function get_active() {
 
     $(".sub").hide();
     $(".product").mouseover(function () {
-        $(".sub").slideDown();
-    });
-    $(".product").mouseout(function () {
-        $(".sub").hide();
-    });
-    $(".sub").mouseover(function () {
         $(".sub").show();
     });
-    $(".sub").mouseout(function () {
+    $(".sub").mouseleave(function () {
         $(".sub").hide();
     });
-
 }
