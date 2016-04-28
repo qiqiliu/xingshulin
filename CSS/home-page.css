@@ -87,7 +87,6 @@ ul {
     position: absolute;
     top: 58px;
     overflow: hidden;
-    transition: 0.5s all;
 }
 
 .button-information {
@@ -97,8 +96,8 @@ ul {
 
 .blog-info {
     margin-top: 33px;
-    width: 60%;
-    padding-left: 15%;
+    width: 55%;
+    padding-left: 10%;
     float: left;
 }
 .blog-info p {
@@ -178,9 +177,9 @@ hr {
 }
 
 .ad-button {
-    padding-left: 15%;
+    padding-left: 10%;
     float: left;
-    width: 60%;
+    width: 55%;
     margin-top: 55px;
     clear: both;
 }
@@ -216,7 +215,7 @@ input {
 .more-info {
     overflow: hidden;
     margin-top: 32px;
-    margin-left: 77%;
+    margin-left: 70%;
     width: 18%;
     height: 100%;
 }
