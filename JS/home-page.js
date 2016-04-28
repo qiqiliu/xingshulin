@@ -7,32 +7,32 @@ $(document).ready(function () {
 function get_active() {
     $(".block").hide();
     $(".home-page").mouseover(function () {
-        $(".block").css("width", $(".home-page").width() + 18);
-        $(".block").css("left", $(".home-page").offset().left-9);
+        $(".block").css("width", $(".home-page").width());
+        $(".block").css("left", $(".home-page").offset().left);
         $(".block").slideDown();
     });
     $(".home-page").mouseout(function () {
         $(".block").hide();
     });
     $(".case").mouseover(function () {
-        $(".block").css("width", $(".case").width() + 18);
-        $(".block").css("left", $(".case").offset().left-9);
+        $(".block").css("width", $(".case").width());
+        $(".block").css("left", $(".case").offset().left);
         $(".block").slideDown();
     });
     $(".case").mouseout(function () {
         $(".block").hide();
     });
     $(".bolg").mouseover(function () {
-        $(".block").css("width", $(".bolg").width() + 18);
-        $(".block").css("left", $(".bolg").offset().left-9);
+        $(".block").css("width", $(".bolg").width());
+        $(".block").css("left", $(".bolg").offset().left);
         $(".block").slideDown();
     });
     $(".bolg").mouseout(function () {
         $(".block").hide();
     });
     $(".Technical").mouseover(function () {
-        $(".block").css("width", $(".Technical").width() + 18);
-        $(".block").css("left", $(".Technical").offset().left-9);
+        $(".block").css("width", $(".Technical").width());
+        $(".block").css("left", $(".Technical").offset().left);
         $(".block").slideDown();
     });
     $(".Technical").mouseout(function () {
