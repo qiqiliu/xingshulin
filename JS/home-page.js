@@ -52,4 +52,7 @@ function get_active() {
     $(".sub").mouseout(function () {
         $(".sub").hide();
     });
+    var a =document.body.clientWidth;   //获取屏幕宽度
+    console.log(a);
 }
+

@@ -4,7 +4,7 @@ body {
 
 .header {
     clear: both;
-    background: url(../picture/home-page-phone/beijing.jpg);
+    background: url(../picture/blog-details-phone/beijing.jpg);
     background-repeat: round;
     width: 100%;
     height: 62px;
@@ -49,7 +49,6 @@ body {
     color: #262626;
     font-size: 21px;
     margin-left: 16px;
-    text-decoration: none;
 }
 
 .view {
@@ -73,9 +72,9 @@ body {
 .read-all {
     color: #F34205;
     font-size: 15px;
-    margin-left: 77%;
+    margin-left: 80%;
     margin-top: 0px;
-    text-decoration: none;
+
 }
 
 hr {
@@ -85,31 +84,18 @@ hr {
 }
 
 .ad-button {
-    width:  97%;
-    margin-top: 47px;
+    float: left;
     clear: both;
 }
 
 .ad-button li {
     list-style: none;
-    height: 31px;
-    line-height: 31px;
-    margin-right: 4px;
-    background: #FFFFFF;
-    border: 1px solid #DDDDDD;
     display: inline-block;
+    margin-top: 6px;
 }
 
-.ad-button li span {
-    font-size: 16px;
-    margin: 0px 14px 0px 13px;
-}
-
-.ad-button li img {
-    margin: 0px 27px 0px 29.9px;
-}
 .footer{
-    margin-top: 128px;
+    margin-top: 109px;
     width: 100%;
     height: 80px;
     background: #3D3C3C;
@@ -123,7 +109,7 @@ hr {
     left: 0px;
     height: 960px;
     width: 44.5%;
-    background:  url(../picture/home-page-phone/背景页.png);;
+    background:  url(../picture/blog-details-phone/背景页.png);;
     z-index:auto;
 }
 
@@ -139,6 +125,18 @@ hr {
     font-size: 20px;
     text-decoration: none;
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

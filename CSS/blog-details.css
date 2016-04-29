@@ -1,6 +1,7 @@
 body {
     margin: 0;
 }
+
 .header {
     clear: both;
     background: url(../picture/blog-details/beijing.jpg);
@@ -12,6 +13,7 @@ body {
 .picture {
     margin-left: 12%;
 }
+
 .picture img {
     margin-top: 7px;
     opacity: 1;
@@ -30,12 +32,14 @@ ul {
     margin-top: 0;
     margin-bottom: 0px;
 }
+
 #menu li {
     float: left;
     width: auto;
     overflow: hidden;
     color: #bbbaba;
 }
+
 #menu li a {
     width: 90px;
     height: 38px;
